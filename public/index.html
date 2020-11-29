@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+<!-- 
+EI OLE VIELÄ TÄYSIN VALMIS-->
+
+<html>
+        <head>
+        <meta charset="utf-8">
+        <title>person_list</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+        
+        </head>
+        <body>
+           
+        
+            <div class="container">
+                <hr>
+                <h1>Add new person to the Mongo database</h1>
+                <hr>
+            
+                <form action="http://localhost:8080/api/persons" method="POST">
+
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" name="name">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input class="form-control" name="age">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone number</label>
+                        <input class="form-control" name="phoneNumber">
+                    </div>
+            
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+            </div>
+
+        </body>
+        </body>
+</html>
+
+
+
